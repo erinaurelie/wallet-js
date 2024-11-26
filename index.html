@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wallet</title>
+</head>
+<body>
+    <header>
+        <div>
+            <div class="user-header">
+                <input type="text" class="user-name js-user-name" placeholder="|">
+                <button class="submit-button js-submit-btn"><img src="images/check-mark-icon.png" alt="Done!"></button>
+            </div>
+        </div>
+        <div class="js-output output"></div>
+        
+    </header>
+    <main>
+        <div class="wallet-grid">
+            <div class="manage-expenses">
+                <input type="text" placeholder="e.g. Groceries" class="js-expense-name js-expense-input">
+                <input type="number" placeholder="$34" min="1" class="js-expense-amount js-expense-input">
+
+                <div class="expenses-grid js-expenses-grid">          
+                    
+                </div>
+                <button class="delete-all-expenses">Delete All</button>
+            </div>
+            <div class="summarize-expenses"></div>
+            <div class="view-expenses"></div>
+            <div class="expenses-graph"></div>
+        </div>
+    </main>
+    
+</body>
+</html>
+
+<!--
+    <div class="expenses-grid">
+                    <div class="expense-item">
+                        <div class="expense-description">
+                            * Groceries - $34
+                        </div>
+                        <div class="expense-delete">
+                            <img src="images/delete-icon.png" alt="Delete">
+                        </div>
+                    </div>
+                    
+                    <div class="expense-item">
+                        <div class="expense-description">
+                            * Utilities - $150
+                        </div>
+                        <div class="expense-delete">
+                            <img src="images/delete-icon.png" alt="Delete" class="delete-icon">
+                        </div>
+                    </div>
+                </div>
+-->
