@@ -1,0 +1,33 @@
+header div {
+    display: grid;
+    place-items: center;
+}
+
+.user-name {
+    padding: 10px 50px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    font-size: 17px;
+}
+
+.user-name::placeholder {
+    font-size: 20px;
+    color: black;
+}
+
+.output {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.user-header {
+   display: flex;
+   align-items: center;
+}
+
+.user-header button {
+    background-color: transparent;
+    border: none;
+}

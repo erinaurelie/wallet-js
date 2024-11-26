@@ -1,0 +1,30 @@
+:root {
+    /*
+    --primary-color: #adf0d4;
+    --secondary-color: #1fd8a4;
+    --bg-color: #0d1512;
+    */
+    --bg-color: #f7f7f781;
+    --text-color: #333333;
+    --green-color: rgba(0, 128, 0, 0.596);
+}
+
+body {
+    background-color: var(--bg-color);
+
+}
+
+.wallet-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 0;
+}
+
+.wallet-grid div {
+    height: max-content;
+    width: max-content;
+}
+.manage-expenses {
+   border: 2px solid black;
+}
+

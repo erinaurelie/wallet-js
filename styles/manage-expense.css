@@ -1,0 +1,44 @@
+.expense-item {
+    border: 1px solid #ccc; 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #f9f9f9; 
+    margin-bottom: 8px; 
+    position: relative;
+}
+
+.expense-description {
+    font-size: 16px; 
+}
+
+.expenses-grid {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.expense-delete {
+    cursor: pointer;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.expense-delete:hover {
+    transform: scale(1.2);
+}
+.delete-all-expenses {
+    display: block;
+    margin: auto;
+    padding: 10px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.manage-expenses input {
+    padding: 10px;
+}
