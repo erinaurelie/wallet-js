@@ -42,3 +42,11 @@
 .manage-expenses input {
     padding: 10px;
 }
+
+.expense-date {
+    font-size: small;
+    color: rgba(86, 81, 81, 0.589);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
