@@ -19,10 +19,16 @@
 }
 
 .expense-delete {
-    cursor: pointer;
     position: absolute;
     top: -5px;
     right: -5px;
+}
+
+.expense-delete,
+.delete-all-expenses,
+.edit-expense,
+.save-edit-button {
+    cursor: pointer;
 }
 
 .expense-delete:hover {
@@ -49,4 +55,24 @@
     position: absolute;
     bottom: 0;
     left: 0;
+}
+
+.edit-expense {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+.save-edit-button {
+    display: block;
+    padding: 10px 15px;
+    background-color: forestgreen;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 10px;
+    display: none;
 }

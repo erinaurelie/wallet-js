@@ -5,7 +5,7 @@ const inputElem = document.querySelector('.js-user-name');
 
 // Adding Event listeners
 submitBtnElem.addEventListener('click', handleUserName);
-inputElem.addEventListener('keydown', (event) => {
+inputElem.addEventListener('keydown', event => {
     if (event.key === 'Enter') {
         handleUserName()
     }
@@ -40,6 +40,15 @@ function renderUserName(username) {
     inputElem.style.display = 'none';
     submitBtnElem.style.display = 'none';
 }
+
+/*
+if (typeof(Storage) !== 'undefined') {
+    console.log('localStorage is supported');
+} else {
+    console.log('localStorage is unsupported');
+    
+}
+*/
 
 /* returns an object then you can destructure to use the variables
 
